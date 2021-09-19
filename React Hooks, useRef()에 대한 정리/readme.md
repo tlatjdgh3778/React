@@ -25,7 +25,7 @@ const FormInput = () => {
 export default FormInput;
 
 ```
-<p aling="center"><img src="https://images.velog.io/images/tlatjdgh3778/post/b3bbd9bd-805f-4995-a1f8-bc4a61728d9c/input.gif" /></p>
+<p aling="center"><img src="https://images.velog.io/images/tlatjdgh3778/post/be474b1a-d768-49dc-bd3d-addf09bcd870/normal.gif" /></p>
 
 `useRef`를 사용하면 페이지가 로드됐을 때 `input` 태그에 `focus`를 줄 수 있다.
 
@@ -54,8 +54,9 @@ export default FormInput;
 
 ```
 
-<p aling="center"><img src="https://images.velog.io/images/tlatjdgh3778/post/2a1089f7-d733-4df8-abbc-efc873c96350/useRef.gif" /></p>
+<p aling="center"><img src="https://images.velog.io/images/tlatjdgh3778/post/8ac0664c-9cf8-47cd-afbb-f2a44a6c9f89/useRef.gif" /></p>
 
+`input` 태그에 `focus`가 된 것을 확인할 수 있다.
 
 ## setInterval, setTimeout clear
 `setInterval`, `setTimeout` 과 같은 함수는 clear를 해주지 않으면 메모리를 많이 소모하기 때문에 특정 상황이나 컴포넌트가 unmount 될 때는 clear를 꼭 해주어야 한다.
@@ -91,7 +92,9 @@ const FormInput = () => {
 export default FormInput;
 ```
 
-<p align="cener"><img src="https://images.velog.io/images/tlatjdgh3778/post/493a92ea-ccee-46af-bb68-6ff12b5dd381/clear.gif" /></p>
+<p align="cener"><img src="https://images.velog.io/images/tlatjdgh3778/post/a1a78618-1213-4cc7-b1dc-1cfcc479dd72/timer.gif" /></p>
+
+버튼을 클릭하면 `onClick` 함수가 실행되면서 `setInterval`을 clear 할 수 있다.
 
 ## 변수로 사용하기
 
